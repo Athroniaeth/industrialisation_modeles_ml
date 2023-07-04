@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/9d61f9464f5b40daaac8b659d53ff62f/artifacts
+end_time: 1688484878584
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9d61f9464f5b40daaac8b659d53ff62f
+run_name: upset-shrew-321
+run_uuid: 9d61f9464f5b40daaac8b659d53ff62f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688484868639
+status: 3
+tags: []
+user_id: Julien

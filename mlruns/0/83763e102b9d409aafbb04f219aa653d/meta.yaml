@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/83763e102b9d409aafbb04f219aa653d/artifacts
+end_time: 1688485465403
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 83763e102b9d409aafbb04f219aa653d
+run_name: whimsical-crow-143
+run_uuid: 83763e102b9d409aafbb04f219aa653d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688485425438
+status: 4
+tags: []
+user_id: Julien

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/022f104d73ae4172bebbfc208f4e0355/artifacts
+end_time: 1688483886984
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 022f104d73ae4172bebbfc208f4e0355
+run_name: traveling-elk-717
+run_uuid: 022f104d73ae4172bebbfc208f4e0355
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688483837421
+status: 3
+tags: []
+user_id: Julien

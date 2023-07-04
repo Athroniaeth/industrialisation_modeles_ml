@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/c9437dd015004dffa516ac60f092b234/artifacts
+end_time: 1688484683647
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c9437dd015004dffa516ac60f092b234
+run_name: bustling-snake-604
+run_uuid: c9437dd015004dffa516ac60f092b234
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688484662493
+status: 4
+tags: []
+user_id: Julien

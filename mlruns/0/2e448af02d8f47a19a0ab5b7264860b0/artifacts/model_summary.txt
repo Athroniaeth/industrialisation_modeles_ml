@@ -1,0 +1,33 @@
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 7, 1)]            0         
+                                                                 
+ conv1d (Conv1D)             (None, 5, 64)             256       
+                                                                 
+ max_pooling1d (MaxPooling1D  (None, 2, 64)            0         
+ )                                                               
+                                                                 
+ zero_padding1d (ZeroPadding  (None, 4, 64)            0         
+ 1D)                                                             
+                                                                 
+ conv1d_1 (Conv1D)           (None, 2, 128)            24704     
+                                                                 
+ zero_padding1d_1 (ZeroPaddi  (None, 4, 128)           0         
+ ng1D)                                                           
+                                                                 
+ max_pooling1d_1 (MaxPooling  (None, 2, 128)           0         
+ 1D)                                                             
+                                                                 
+ flatten (Flatten)           (None, 256)               0         
+                                                                 
+ dense (Dense)               (None, 128)               32896     
+                                                                 
+ dense_1 (Dense)             (None, 7)                 903       
+                                                                 
+=================================================================
+Total params: 58,759
+Trainable params: 58,759
+Non-trainable params: 0
+_________________________________________________________________

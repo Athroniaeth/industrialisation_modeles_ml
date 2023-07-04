@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/6b4c370535c14c70bf4d891a12522843/artifacts
+end_time: 1688485586132
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6b4c370535c14c70bf4d891a12522843
+run_name: sedate-ray-605
+run_uuid: 6b4c370535c14c70bf4d891a12522843
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688485477484
+status: 3
+tags: []
+user_id: Julien

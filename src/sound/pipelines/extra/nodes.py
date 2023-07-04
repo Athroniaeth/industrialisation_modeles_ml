@@ -46,6 +46,6 @@ def split_data(shaped_datas: pd.DataFrame) -> pd.DataFrame:
     #Récupération de 20% des données pour le test du modèle
     dfx = shaped_datas.loc[:,['before_exam_125_Hz','before_exam_250_Hz','before_exam_500_Hz','before_exam_1000_Hz','before_exam_2000_Hz','before_exam_4000_Hz','before_exam_8000_Hz']]
     dfy = shaped_datas.loc[:,['after_exam_125_Hz','after_exam_250_Hz','after_exam_500_Hz','after_exam_1000_Hz','after_exam_2000_Hz','after_exam_4000_Hz','after_exam_8000_Hz']]
-    train_df_x, train_df_y, test_df_x, test_df_y = train_test_split(dfx, dfy, test_size=0.2)
+    train_df_x, test_df_x, train_df_y, test_df_y = train_test_split(dfx, dfy, test_size=0.2)
 
-    return train_df_x
+    return train_df_x, test_df_x, train_df_y, test_df_y

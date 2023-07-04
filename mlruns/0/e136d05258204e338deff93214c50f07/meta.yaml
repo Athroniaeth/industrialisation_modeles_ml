@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/e136d05258204e338deff93214c50f07/artifacts
+end_time: 1688485717962
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e136d05258204e338deff93214c50f07
+run_name: grandiose-toad-330
+run_uuid: e136d05258204e338deff93214c50f07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688485717716
+status: 4
+tags: []
+user_id: Julien

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/aa7d091f5dd04e02b8c3f61b0089123c/artifacts
+end_time: 1688483751376
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa7d091f5dd04e02b8c3f61b0089123c
+run_name: legendary-shark-756
+run_uuid: aa7d091f5dd04e02b8c3f61b0089123c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688483751248
+status: 3
+tags: []
+user_id: Julien

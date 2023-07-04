@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/d508d95675b24ef6b28adc3111d1fc54/artifacts
+end_time: 1688485245096
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d508d95675b24ef6b28adc3111d1fc54
+run_name: agreeable-turtle-298
+run_uuid: d508d95675b24ef6b28adc3111d1fc54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688485204850
+status: 3
+tags: []
+user_id: Julien

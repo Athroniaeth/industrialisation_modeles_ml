@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/9ecf9985468144c6adfaaa1faa68cdaa/artifacts
+end_time: 1688484743264
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ecf9985468144c6adfaaa1faa68cdaa
+run_name: bedecked-kite-954
+run_uuid: 9ecf9985468144c6adfaaa1faa68cdaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688484742770
+status: 4
+tags: []
+user_id: Julien

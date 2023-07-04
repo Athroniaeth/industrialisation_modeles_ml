@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/07ce3716454e4e789e47374e43b6a690/artifacts
+end_time: 1688484909668
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 07ce3716454e4e789e47374e43b6a690
+run_name: persistent-lamb-278
+run_uuid: 07ce3716454e4e789e47374e43b6a690
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688484893065
+status: 3
+tags: []
+user_id: Julien

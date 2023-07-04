@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/b8b4ca49ca204ca7ae23e4074485c920/artifacts
+end_time: 1688484832154
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b8b4ca49ca204ca7ae23e4074485c920
+run_name: caring-hare-707
+run_uuid: b8b4ca49ca204ca7ae23e4074485c920
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688484815197
+status: 4
+tags: []
+user_id: Julien

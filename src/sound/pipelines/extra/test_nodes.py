@@ -36,7 +36,7 @@ def test_normalise_data():
     assert min_values == 0
     assert max_values == 1
 
-#def clean_data():
+#def split_data():
     #Vérification des valeurs nulles -> suppresion des lignes (alerte)    
     #assert len(df.dropna()) == len(df) - 1
     

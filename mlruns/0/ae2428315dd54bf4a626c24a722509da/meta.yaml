@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/ae2428315dd54bf4a626c24a722509da/artifacts
+end_time: 1688484995099
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ae2428315dd54bf4a626c24a722509da
+run_name: righteous-sheep-779
+run_uuid: ae2428315dd54bf4a626c24a722509da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688484981077
+status: 3
+tags: []
+user_id: Julien

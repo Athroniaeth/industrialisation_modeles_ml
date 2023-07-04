@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/55d11149a6664eb9925897acca4fc19c/artifacts
+end_time: 1688485063394
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 55d11149a6664eb9925897acca4fc19c
+run_name: angry-fish-411
+run_uuid: 55d11149a6664eb9925897acca4fc19c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688485006946
+status: 4
+tags: []
+user_id: Julien

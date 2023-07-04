@@ -19,9 +19,44 @@ norm_datas:
   filepath: data/03_primary/norm_data.csv
   layer: intermediate
 
-train_data:
+train_data_x:
   type: pandas.CSVDataSet
-  filepath: data/05_model_input/train.csv
+  filepath: data/05_model_input/train_data_x.csv
+  layer: model_input
+
+train_data_y:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/train_data_y.csv
+  layer: model_input
+
+test_data_x:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/test_data_x.csv
+  layer: model_input
+
+test_data_y:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/test_data_y.csv
+  layer: model_input
+
+train_data_x_2:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/train_data_x_2.csv
+  layer: model_input
+
+train_data_y_2:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/train_data_y_2.csv
+  layer: model_input
+
+test_data_x_2:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/test_data_x_2.csv
+  layer: model_input
+
+test_data_y_2:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/test_data_y_2.csv
   layer: model_input
 
 train_labels:
@@ -39,8 +74,8 @@ test_labels:
   filepath: data/05_model_input/test_labels.csv
   layer: model_input
 
-#ml_model:
-  #type: tensorflow.TensorFlowModelDataset #pickle.PickleDataSet
-  #filepath: data/06_models/20230427_model.h5
+ml_model:
+  type: tensorflow.TensorFlowModelDataset #pickle.PickleDataSet
+  filepath: data/06_models/20230427_model.h5
   #save_args:
   #overwrite: true

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/e96d5134c0b34d4abed82be64c9a5d94/artifacts
+end_time: 1688485417645
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e96d5134c0b34d4abed82be64c9a5d94
+run_name: upset-hawk-66
+run_uuid: e96d5134c0b34d4abed82be64c9a5d94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688485356764
+status: 4
+tags: []
+user_id: Julien

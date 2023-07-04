@@ -1,0 +1,45 @@
+!!python/object:kedro.config.config.ConfigLoader
+base_env: base
+conf_source: C:\Users\julie\sound\conf\base\parameters\Extra.yml
+config_patterns:
+  catalog:
+  - catalog*
+  - catalog*/**
+  - '**/catalog*'
+  credentials:
+  - credentials*
+  - credentials*/**
+  - '**/credentials*'
+  logging:
+  - logging*
+  - logging*/**
+  - '**/logging*'
+  parameters:
+  - parameters*
+  - parameters*/**
+  - '**/parameters*'
+data:
+  max_values: !!python/object/apply:numpy.core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - i8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    YwAAAAAAAAA=
+  min_values: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    AAAAAAAAAAA=
+default_run_env: local
+env: null
+runtime_params: {}

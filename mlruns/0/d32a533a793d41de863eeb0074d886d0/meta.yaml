@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/d32a533a793d41de863eeb0074d886d0/artifacts
+end_time: 1688570571438
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d32a533a793d41de863eeb0074d886d0
+run_name: learned-gnat-67
+run_uuid: d32a533a793d41de863eeb0074d886d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688570438105
+status: 3
+tags: []
+user_id: Julien

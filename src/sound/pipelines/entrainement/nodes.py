@@ -58,15 +58,16 @@ def create_model(input_shape, units=128, activation='relu', l2_value=0.01, dropo
     inputs = layers.Input(shape=input_shape)
     
     #Définition des couches de convolution
-    # x = layers.Conv1D(filters=16, kernel_size=3, activation=activation)(inputs)
-    # x = layers.MaxPooling1D(pool_size=2)(x)
-    # x = layers.ZeroPadding1D(padding=1)(x) #Ajouter une couche de padding
-    # x = layers.Conv1D(filters=32, kernel_size=3, activation=activation)(x)
-    # x = layers.ZeroPadding1D(padding=1)(x) #Ajouter une couche de padding
-    # x = layers.MaxPooling1D(pool_size=2)(x)
+    x = layers.Conv1D(filters=16, kernel_size=3, activation=activation)(inputs)
+    x = layers.MaxPooling1D(pool_size=2)(x)
+    x = layers.ZeroPadding1D(padding=1)(x) #Ajouter une couche de padding
+    x = layers.Conv1D(filters=32, kernel_size=3, activation=activation)(x)
+    x = layers.ZeroPadding1D(padding=1)(x) #Ajouter une couche de padding
+    x = layers.MaxPooling1D(pool_size=2)(x)
     
     #Aplatissement des données
-    x = layers.Flatten()(inputs)
+    #x = layers.Flatten()(inputs)
+    x = layers.Flatten()(x)
     
     #Définition des couches entièrement connectées
     x = layers.Dense(units, activation='relu', kernel_regularizer=regularizers.l2(l2_value))(x)

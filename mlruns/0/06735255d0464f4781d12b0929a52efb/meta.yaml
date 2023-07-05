@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/06735255d0464f4781d12b0929a52efb/artifacts
+end_time: 1688566006901
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 06735255d0464f4781d12b0929a52efb
+run_name: languid-owl-873
+run_uuid: 06735255d0464f4781d12b0929a52efb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688565897298
+status: 3
+tags: []
+user_id: Julien

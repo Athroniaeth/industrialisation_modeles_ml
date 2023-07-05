@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/c0786cf4e96045a78cb8eb75bb43a4d1/artifacts
+end_time: 1688566980979
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c0786cf4e96045a78cb8eb75bb43a4d1
+run_name: kindly-stoat-787
+run_uuid: c0786cf4e96045a78cb8eb75bb43a4d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688566874719
+status: 3
+tags: []
+user_id: Julien

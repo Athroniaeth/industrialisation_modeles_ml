@@ -17,12 +17,13 @@ def test_model():
     test_df_y = test_df_y.reshape((-1, 7, 1))
     # Vérification de l'accuracy
 
-    model = mlflow.tensorflow.load_model('runs:/863762eb9d394c40ae44cdc8b68c8151/')
+    model = mlflow.tensorflow.load_model('runs:/04ee952a8fd343448fee7ded20499246/model')
     predictions = model.predict(test_df_x)
 
     print(predictions.shape, test_df_y.shape)
 
     test_df_y = test_df_y.reshape(-1, 7)
+
     # Calcul du %erreurs root-mean-square
     mse = mean_squared_error(predictions, test_df_y)
     

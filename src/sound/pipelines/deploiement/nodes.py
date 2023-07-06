@@ -17,9 +17,9 @@ def predict():
     # Save data from POST request to JSON file
     save_from_post_request(request, filepath)
 
-    with KedroSession.create("kedro_project_name", project_path=".") as session:
-        processed_data = session.run(
-            pipeline_name ="my_pipeline", # Le nom du pipe à exécuter
+    with KedroSession.create("sound", project_path=".") as session:
+        create_pipeline = session.run(
+            pipeline_name ="pipeline_extra", # Le nom du pipe à exécuter
             )
         output = pd.read_csv('where_my_data_are_suppose_to_be_saved')
         

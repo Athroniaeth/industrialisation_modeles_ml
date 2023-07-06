@@ -42,31 +42,31 @@ def train_bis(train_df_x: pd.DataFrame, test_df_x: pd.DataFrame, train_df_y: pd.
 
     return model
 
-def train_model(train_df_x, test_df_x, train_df_y, test_df_y):
-    # Il faut vérifier que les données ont le même nombre d'entrée
-    # Ce code ne fonctionne pas car il 'y as pas le même nombre de donnée (8000vs2000)
-    # assert train_x.shape == train_y.shape, f"{train_x.shape} {train_y.shape}"
-    with mlflow.start_run() as run:
-        train_df_x = train_df_x.to_numpy()
-        train_df_y = train_df_y.to_numpy()
-        # assert test_x.shape == test_y.shape
-        train_df_x = train_df_x.reshape((8000, 7, 1))
-        train_df_y = train_df_y.reshape((8000, 7, 1))
-
-        print(train_df_x.shape[1:])
-
-        print(train_df_x.shape, train_df_y.shape)
-
-        model = create_model(train_df_x.shape[1:])
-        history = model.fit(train_df_x, train_df_y, validation_data=(test_df_x, test_df_y))
-
-        predictions = model.predict(X_test)
-
-        print(predictions)
-        signature = infer_signature(X_test, predictions)
-        mlflow.sklearn.log_model(rf, "model", signature=signature)
-        print("Run ID: {}".format(run.info.run_id))
-        print(history)
+#def train_model(train_df_x, test_df_x, train_df_y, test_df_y):
+#    # Il faut vérifier que les données ont le même nombre d'entrée
+#    # Ce code ne fonctionne pas car il 'y as pas le même nombre de donnée (8000vs2000)
+#    # assert train_x.shape == train_y.shape, f"{train_x.shape} {train_y.shape}"
+#    with mlflow.start_run() as run:
+#        train_df_x = train_df_x.to_numpy()
+#        train_df_y = train_df_y.to_numpy()
+#        # assert test_x.shape == test_y.shape
+#        train_df_x = train_df_x.reshape((8000, 7, 1))
+#        train_df_y = train_df_y.reshape((8000, 7, 1))
+#
+#        print(train_df_x.shape[1:])
+#
+#        print(train_df_x.shape, train_df_y.shape)
+#
+#        model = create_model(train_df_x.shape[1:])
+#        history = model.fit(train_df_x, train_df_y, validation_data=(test_df_x, test_df_y))
+#
+#        predictions = model.predict(X_test)
+#
+#        print(predictions)
+#        signature = infer_signature(X_test, predictions)
+#        mlflow.sklearn.log_model(rf, "model", signature=signature)
+#        print("Run ID: {}".format(run.info.run_id))
+#        print(history)
 
 # Création du modèle d'entraînement
 def create_model(input_shape, units=192, activation='relu', l2_value=0.01, dropout_rate=None, learning_rate=1e-3):

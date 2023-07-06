@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/e5780fd152194b4997bbad5dc9f638db/artifacts
+end_time: 1688634034322
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e5780fd152194b4997bbad5dc9f638db
+run_name: mercurial-fawn-630
+run_uuid: e5780fd152194b4997bbad5dc9f638db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688633844633
+status: 3
+tags: []
+user_id: Julien

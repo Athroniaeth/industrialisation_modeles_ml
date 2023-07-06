@@ -8,14 +8,24 @@ from tensorflow.keras import regularizers
 
 def train_bis(train_df_x: pd.DataFrame, test_df_x: pd.DataFrame, train_df_y: pd.DataFrame, test_df_y: pd.DataFrame):
     import mlflow
+
     mlflow.autolog()
 
-    model = create_model(input_shape=(7,1))
-    history = model.fit(train_df_x, train_df_y, epochs=100, validation_data=(test_df_x, test_df_y), steps_per_epoch=1000)
+    with mlflow.start_run() as run:
+        model = create_model(input_shape=(7,1))
+        history = model.fit(train_df_x, train_df_y, epochs=100, validation_data=(test_df_x, test_df_y), steps_per_epoch=1000)
+        
+        predictions = model.predict(test_df_x)
+        print(predictions)
+
+    return model
 
     import os
     from random import random, randint
     from mlflow import log_metric, log_param, log_params, log_artifacts
+    import mlflow
+    from mlflow.models.signature import infer_signature
+    from sklearn.model_selection import train_test_split
 
     #print(history.history)
     #log_metric("accuracy", history.history["categorical_accuracy"])
@@ -36,46 +46,50 @@ def train_model(train_df_x, test_df_x, train_df_y, test_df_y):
     # Il faut vérifier que les données ont le même nombre d'entrée
     # Ce code ne fonctionne pas car il 'y as pas le même nombre de donnée (8000vs2000)
     # assert train_x.shape == train_y.shape, f"{train_x.shape} {train_y.shape}"
+    with mlflow.start_run() as run:
+        train_df_x = train_df_x.to_numpy()
+        train_df_y = train_df_y.to_numpy()
+        # assert test_x.shape == test_y.shape
+        train_df_x = train_df_x.reshape((8000, 7, 1))
+        train_df_y = train_df_y.reshape((8000, 7, 1))
 
-    train_df_x = train_df_x.to_numpy()
-    train_df_y = train_df_y.to_numpy()
-    # assert test_x.shape == test_y.shape
-    train_df_x = train_df_x.reshape((8000, 7, 1))
-    train_df_y = train_df_y.reshape((8000, 7, 1))
+        print(train_df_x.shape[1:])
 
-    print(train_df_x.shape[1:])
+        print(train_df_x.shape, train_df_y.shape)
 
-    print(train_df_x.shape, train_df_y.shape)
+        model = create_model(train_df_x.shape[1:])
+        history = model.fit(train_df_x, train_df_y, validation_data=(test_df_x, test_df_y))
 
-    model = create_model(train_df_x.shape[1:])
-    history = model.fit(train_df_x, train_df_y)
-    print(history)
+        predictions = model.predict(X_test)
+
+        print(predictions)
+        signature = infer_signature(X_test, predictions)
+        mlflow.sklearn.log_model(rf, "model", signature=signature)
+        print("Run ID: {}".format(run.info.run_id))
+        print(history)
 
 # Création du modèle d'entraînement
-def create_model(input_shape, units=128, activation='relu', l2_value=0.01, dropout_rate=None, learning_rate=1e-4):
+def create_model(input_shape, units=192, activation='relu', l2_value=0.01, dropout_rate=None, learning_rate=1e-3):
     
-    #Définition de la couche d'entrée
+    # Définition de la couche d'entrée
     inputs = layers.Input(shape=input_shape)
     
-    #Définition des couches de convolution
-    x = layers.Conv1D(filters=16, kernel_size=3, activation=activation)(inputs)
-    x = layers.MaxPooling1D(pool_size=2)(x)
-    x = layers.ZeroPadding1D(padding=1)(x) #Ajouter une couche de padding
-    x = layers.Conv1D(filters=32, kernel_size=3, activation=activation)(x)
-    x = layers.ZeroPadding1D(padding=1)(x) #Ajouter une couche de padding
-    x = layers.MaxPooling1D(pool_size=2)(x)
+    # Définition des couches de convolution 
+    # padding='same' rajoute un "pixel" à doite et à gauche pour avoir la même taille de sortie
+    x = layers.Conv1D(filters=64, kernel_size=5, padding='same', activation=activation)(inputs)
+    x = layers.Conv1D(filters=128, kernel_size=4, padding='same', activation=activation)(x)
+
     
-    #Aplatissement des données
-    #x = layers.Flatten()(inputs)
+    # Aplatissement des données
     x = layers.Flatten()(x)
     
-    #Définition des couches entièrement connectées
-    x = layers.Dense(units, activation='relu', kernel_regularizer=regularizers.l2(l2_value))(x)
+    # Définition des couches entièrement connectées
+    x = layers.Dense(units, activation='relu')(x)
 
     if dropout_rate is not None:
         x = layers.Dropout(dropout_rate)(x)
     
-    x = layers.Dense(input_shape[0], activation='softmax')(x)
+    x = layers.Dense(input_shape[0], activation='sigmoid')(x)
         
     #Création du modèle
     model = tf.keras.Model(inputs=inputs, outputs=x)

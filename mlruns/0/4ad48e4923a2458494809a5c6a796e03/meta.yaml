@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/4ad48e4923a2458494809a5c6a796e03/artifacts
+end_time: 1688631872313
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ad48e4923a2458494809a5c6a796e03
+run_name: capricious-mare-17
+run_uuid: 4ad48e4923a2458494809a5c6a796e03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688631814010
+status: 4
+tags: []
+user_id: Julien

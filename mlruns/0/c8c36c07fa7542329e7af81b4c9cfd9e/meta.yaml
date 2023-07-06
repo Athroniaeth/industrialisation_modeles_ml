@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/c8c36c07fa7542329e7af81b4c9cfd9e/artifacts
+end_time: 1688631806296
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c8c36c07fa7542329e7af81b4c9cfd9e
+run_name: thoughtful-goose-635
+run_uuid: c8c36c07fa7542329e7af81b4c9cfd9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688631733709
+status: 4
+tags: []
+user_id: Julien

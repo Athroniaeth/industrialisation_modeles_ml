@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/cb2086c7e0ce4a6794751069f6946f8f/artifacts
+end_time: 1688633083237
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb2086c7e0ce4a6794751069f6946f8f
+run_name: abundant-vole-29
+run_uuid: cb2086c7e0ce4a6794751069f6946f8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688633006779
+status: 4
+tags: []
+user_id: Julien

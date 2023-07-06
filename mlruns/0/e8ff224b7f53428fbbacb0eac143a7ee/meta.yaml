@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/e8ff224b7f53428fbbacb0eac143a7ee/artifacts
+end_time: 1688646670606
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e8ff224b7f53428fbbacb0eac143a7ee
+run_name: carefree-shad-921
+run_uuid: e8ff224b7f53428fbbacb0eac143a7ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688646536391
+status: 4
+tags: []
+user_id: Julien

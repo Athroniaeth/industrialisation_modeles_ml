@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/64bbef95282f443e8344a5ce6de82fe7/artifacts
+end_time: 1688632757809
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 64bbef95282f443e8344a5ce6de82fe7
+run_name: carefree-smelt-456
+run_uuid: 64bbef95282f443e8344a5ce6de82fe7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688632701878
+status: 4
+tags: []
+user_id: Julien

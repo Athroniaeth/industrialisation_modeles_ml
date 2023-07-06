@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/4ada12c05cc34c608eb8a8d912bd10f3/artifacts
+end_time: 1688632856650
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ada12c05cc34c608eb8a8d912bd10f3
+run_name: charming-gnat-3
+run_uuid: 4ada12c05cc34c608eb8a8d912bd10f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688632834339
+status: 4
+tags: []
+user_id: Julien

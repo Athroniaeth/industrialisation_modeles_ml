@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/e50807479246451d99bf4780ceade8b4/artifacts
+end_time: 1688632418384
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e50807479246451d99bf4780ceade8b4
+run_name: bald-bear-987
+run_uuid: e50807479246451d99bf4780ceade8b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688632392764
+status: 4
+tags: []
+user_id: Julien

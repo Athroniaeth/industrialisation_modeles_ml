@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/b92243c1686a4a79a2e3886a62391bab/artifacts
+end_time: 1688632103288
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b92243c1686a4a79a2e3886a62391bab
+run_name: colorful-bird-267
+run_uuid: b92243c1686a4a79a2e3886a62391bab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688632037066
+status: 4
+tags: []
+user_id: Julien

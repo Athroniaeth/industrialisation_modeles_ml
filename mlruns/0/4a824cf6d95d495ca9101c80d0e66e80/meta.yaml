@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/4a824cf6d95d495ca9101c80d0e66e80/artifacts
+end_time: 1688632384859
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4a824cf6d95d495ca9101c80d0e66e80
+run_name: thundering-colt-204
+run_uuid: 4a824cf6d95d495ca9101c80d0e66e80
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688632352029
+status: 4
+tags: []
+user_id: Julien

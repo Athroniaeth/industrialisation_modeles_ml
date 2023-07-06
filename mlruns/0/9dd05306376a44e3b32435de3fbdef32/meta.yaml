@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/9dd05306376a44e3b32435de3fbdef32/artifacts
+end_time: 1688631327053
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9dd05306376a44e3b32435de3fbdef32
+run_name: placid-midge-546
+run_uuid: 9dd05306376a44e3b32435de3fbdef32
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688631314896
+status: 4
+tags: []
+user_id: Julien

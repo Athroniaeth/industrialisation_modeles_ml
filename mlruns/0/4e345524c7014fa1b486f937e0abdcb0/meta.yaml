@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/4e345524c7014fa1b486f937e0abdcb0/artifacts
+end_time: 1688632564613
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4e345524c7014fa1b486f937e0abdcb0
+run_name: amazing-frog-502
+run_uuid: 4e345524c7014fa1b486f937e0abdcb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688632534777
+status: 4
+tags: []
+user_id: Julien

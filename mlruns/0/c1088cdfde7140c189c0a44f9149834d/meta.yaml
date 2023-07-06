@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/c1088cdfde7140c189c0a44f9149834d/artifacts
+end_time: 1688644789054
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1088cdfde7140c189c0a44f9149834d
+run_name: marvelous-tern-880
+run_uuid: c1088cdfde7140c189c0a44f9149834d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688644568930
+status: 3
+tags: []
+user_id: Julien

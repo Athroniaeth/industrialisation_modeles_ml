@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/b7cfd9b9663b44b88c6f49bdf4e4a200/artifacts
+end_time: 1688632196932
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b7cfd9b9663b44b88c6f49bdf4e4a200
+run_name: learned-tern-234
+run_uuid: b7cfd9b9663b44b88c6f49bdf4e4a200
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688632110546
+status: 4
+tags: []
+user_id: Julien

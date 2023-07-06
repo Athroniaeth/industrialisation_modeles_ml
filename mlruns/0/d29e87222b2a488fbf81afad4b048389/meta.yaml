@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/d29e87222b2a488fbf81afad4b048389/artifacts
+end_time: 1688631550288
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d29e87222b2a488fbf81afad4b048389
+run_name: rumbling-skunk-273
+run_uuid: d29e87222b2a488fbf81afad4b048389
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688631522350
+status: 4
+tags: []
+user_id: Julien

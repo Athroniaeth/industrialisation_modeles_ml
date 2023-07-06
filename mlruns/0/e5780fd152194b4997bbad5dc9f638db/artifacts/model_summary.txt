@@ -1,0 +1,21 @@
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 7, 1)]            0         
+                                                                 
+ conv1d (Conv1D)             (None, 7, 64)             256       
+                                                                 
+ conv1d_1 (Conv1D)           (None, 7, 128)            24704     
+                                                                 
+ flatten (Flatten)           (None, 896)               0         
+                                                                 
+ dense (Dense)               (None, 128)               114816    
+                                                                 
+ dense_1 (Dense)             (None, 7)                 903       
+                                                                 
+=================================================================
+Total params: 140,679
+Trainable params: 140,679
+Non-trainable params: 0
+_________________________________________________________________

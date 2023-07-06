@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/ccbae2fcf02d423392a42dc701e67b26/artifacts
+end_time: 1688633173505
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ccbae2fcf02d423392a42dc701e67b26
+run_name: colorful-moose-777
+run_uuid: ccbae2fcf02d423392a42dc701e67b26
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688633090904
+status: 4
+tags: []
+user_id: Julien

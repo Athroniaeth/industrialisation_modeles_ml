@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/b768120d42b1485ea634666ed94caada/artifacts
+end_time: 1688633795736
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b768120d42b1485ea634666ed94caada
+run_name: persistent-mouse-699
+run_uuid: b768120d42b1485ea634666ed94caada
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688633604172
+status: 3
+tags: []
+user_id: Julien

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/863762eb9d394c40ae44cdc8b68c8151/artifacts
+end_time: 1688638821254
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 863762eb9d394c40ae44cdc8b68c8151
+run_name: nervous-bird-38
+run_uuid: 863762eb9d394c40ae44cdc8b68c8151
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688638613728
+status: 3
+tags: []
+user_id: Julien

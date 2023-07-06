@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/0d9be15879f34b4f9d5b76ca79292255/artifacts
+end_time: 1688632516803
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d9be15879f34b4f9d5b76ca79292255
+run_name: bemused-grouse-722
+run_uuid: 0d9be15879f34b4f9d5b76ca79292255
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688632503442
+status: 4
+tags: []
+user_id: Julien

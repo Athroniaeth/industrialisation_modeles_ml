@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/f6073830beb041e29f2ad5fa8b6c659b/artifacts
+end_time: 1688631931995
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f6073830beb041e29f2ad5fa8b6c659b
+run_name: traveling-ram-512
+run_uuid: f6073830beb041e29f2ad5fa8b6c659b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688631882845
+status: 4
+tags: []
+user_id: Julien

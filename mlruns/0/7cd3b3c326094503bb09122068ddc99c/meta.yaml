@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/7cd3b3c326094503bb09122068ddc99c/artifacts
+end_time: 1688646913195
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7cd3b3c326094503bb09122068ddc99c
+run_name: mercurial-cow-382
+run_uuid: 7cd3b3c326094503bb09122068ddc99c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688646881017
+status: 4
+tags: []
+user_id: Julien

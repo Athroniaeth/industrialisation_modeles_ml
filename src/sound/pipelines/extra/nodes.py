@@ -6,7 +6,6 @@ This is a boilerplate pipeline 'Extra' generated using Kedro 0.18.10
 import yaml
 import pandas as pd
 from sklearn.model_selection import train_test_split
-
 from kedro.pipeline import node
 from kedro.config import ConfigLoader
 from kedro.framework.project import settings
@@ -14,7 +13,7 @@ from kedro.framework.project import settings
 def clean_data(shaped_datas: pd.DataFrame) -> pd.DataFrame:
     #Vérification des valeurs nulles -> suppresion des lignes (alerte)
     null_values = shaped_datas.isnull()
-    
+
     ##Utilisez la méthode any(axis=1) pour identifier les lignes contenant des valeurs nulles
     rows_with_nulls = null_values.any(axis=1)
     
@@ -30,9 +29,8 @@ def normalise_data(shaped_datas: pd.DataFrame) -> pd.DataFrame:
     min_values = shaped_datas.min().min()
     max_values = shaped_datas.max().min()
     
-    conf_path = 'C:\\Users\\julie\\sound\\conf\\base\\parameters\\Extra.yml'
+    conf_path = "conf/base/parameters/Extra.yml"
     conf_loader = ConfigLoader(conf_source=conf_path)
-    
     conf_loader["min_values"] = min_values
     conf_loader["max_values"] = max_values
 

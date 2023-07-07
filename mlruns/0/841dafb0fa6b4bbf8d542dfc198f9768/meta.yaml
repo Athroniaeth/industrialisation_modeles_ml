@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/841dafb0fa6b4bbf8d542dfc198f9768/artifacts
+end_time: 1688739418803
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 841dafb0fa6b4bbf8d542dfc198f9768
+run_name: polite-rook-390
+run_uuid: 841dafb0fa6b4bbf8d542dfc198f9768
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688738826717
+status: 3
+tags: []
+user_id: user

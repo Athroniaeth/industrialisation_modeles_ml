@@ -1,6 +1,5 @@
 """
-This is a boilerplate pipeline 'deploiement'
-generated using Kedro 0.18.10
+This is a boilerplate pipeline 'deploiement' generated using Kedro 0.18.10
 """
 
 from .pipeline import create_pipeline

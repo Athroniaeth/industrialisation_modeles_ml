@@ -79,3 +79,7 @@ ml_model:
   filepath: data/06_models/20230427_model.h5
   #save_args:
   #overwrite: true
+
+predict_model:
+  type: tensorflow.TensorFlowModelDataset #pickle.PickleDataSet
+  filepath: data/06_models/predict_model.h5

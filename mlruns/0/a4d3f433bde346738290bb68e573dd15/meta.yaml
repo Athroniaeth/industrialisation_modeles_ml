@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/a4d3f433bde346738290bb68e573dd15/artifacts
+end_time: 1689100896916
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a4d3f433bde346738290bb68e573dd15
+run_name: carefree-newt-411
+run_uuid: a4d3f433bde346738290bb68e573dd15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689100689017
+status: 3
+tags: []
+user_id: pierr

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julie/OneDrive/Bureau/industrialisation_modeles_ml/mlruns/0/17ae08b09e40475681657bef81a9e0c6/artifacts
+end_time: 1689099705465
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 17ae08b09e40475681657bef81a9e0c6
+run_name: gifted-hen-418
+run_uuid: 17ae08b09e40475681657bef81a9e0c6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689099702541
+status: 4
+tags: []
+user_id: pierr

@@ -8,7 +8,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 @app.route("/predict", methods=["POST"])
 
-def predict():
+def predict(ml_model):
     #Définition du chemin d'accès au fichier pour enregistrer les données de la requête POST
     filepath = "data/08_reporting/"
     

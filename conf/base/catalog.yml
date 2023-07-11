@@ -75,10 +75,8 @@ test_labels:
   layer: model_input
 
 ml_model:
-  type: tensorflow.TensorFlowModelDataset #pickle.PickleDataSet
-  filepath: data/06_models/20230427_model.h5
-  #save_args:
-  #overwrite: true
+  type: kedro.extras.datasets.tensorflow.TensorFlowModelDataset
+  filepath: data/06_models/20230427_model
 
 predict_model:
   type: tensorflow.TensorFlowModelDataset #pickle.PickleDataSet

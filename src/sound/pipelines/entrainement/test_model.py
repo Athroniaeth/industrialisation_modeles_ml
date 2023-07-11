@@ -17,7 +17,7 @@ def test_model():
     test_df_y = test_df_y.reshape((-1, 7, 1))
     # Vérification de l'accuracy
 
-    model = mlflow.tensorflow.load_model('runs:/04ee952a8fd343448fee7ded20499246/model')
+    model = mlflow.tensorflow.load_model('runs:/a4d3f433bde346738290bb68e573dd15/model')
     predictions = model.predict(test_df_x)
 
     print(predictions.shape, test_df_y.shape)

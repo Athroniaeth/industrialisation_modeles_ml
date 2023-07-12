@@ -34,7 +34,7 @@ loggers:
   kedro:
     level: INFO
 
-  sound:
+  industrialisation_modeles_ml:
     level: INFO
 
 root:

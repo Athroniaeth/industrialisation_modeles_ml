@@ -1,5 +1,1 @@
-# This is a boilerplate parameters config generated for pipeline 'entrainement'
-# using Kedro 0.18.10.
-#
-# Documentation for this file format can be found in "Parameters"
-# Link: https://docs.kedro.org/en/0.18.10/kedro_project_setup/configuration.html#parameters
+kedro_last_run_id: 4d6422f43cc04860be4498d585c777f1

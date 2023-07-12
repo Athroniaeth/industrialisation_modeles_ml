@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/pierr/OneDrive/Bureau/industrialisation-modeles-ml/mlruns/0/5391837ac41d4a76966582a2e1871593/artifacts
+end_time: 1689136946605
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5391837ac41d4a76966582a2e1871593
+run_name: last_run
+run_uuid: 5391837ac41d4a76966582a2e1871593
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689136937752
+status: 3
+tags: []
+user_id: pierr

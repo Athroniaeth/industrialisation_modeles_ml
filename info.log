@@ -1,0 +1,766 @@
+2023-07-11 23:08:55,967 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-11 23:23:15,050 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-11 23:23:16,105 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-11 23:23:16,335 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-11 23:23:16,366 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-11 23:23:16,398 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-11 23:23:16,435 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-11 23:23:16,437 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-11 23:23:16,467 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-11 23:23:16,469 - kedro.pipeline.node - ERROR - Node 'node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]' failed with error: 
+name 'os' is not defined
+2023-07-11 23:23:16,482 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes "node_normalise_clean_data"
+2023-07-11 23:26:21,597 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-11 23:26:23,231 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-11 23:26:23,498 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-11 23:26:23,533 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-11 23:26:23,570 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-11 23:26:23,611 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-11 23:26:23,613 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-11 23:26:23,645 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-11 23:26:23,648 - kedro.pipeline.node - ERROR - Node 'node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]' failed with error: 
+name 'conf_loader' is not defined
+2023-07-11 23:26:23,661 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes "node_normalise_clean_data"
+2023-07-11 23:26:44,934 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-11 23:26:46,051 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-11 23:26:46,325 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-11 23:26:46,382 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-11 23:26:46,431 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-11 23:26:46,485 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-11 23:26:46,487 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-11 23:26:46,521 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-11 23:26:46,524 - kedro.pipeline.node - ERROR - Node 'node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]' failed with error: 
+name 'conf_loader' is not defined
+2023-07-11 23:26:46,536 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes "node_normalise_clean_data"
+2023-07-11 23:26:56,505 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-11 23:26:57,610 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-11 23:26:57,823 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-11 23:26:57,859 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-11 23:26:57,895 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-11 23:26:57,947 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-11 23:26:57,949 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-11 23:26:57,985 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-11 23:26:58,045 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-11 23:26:58,232 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-07-11 23:26:58,234 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-11 23:26:58,290 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-11 23:26:58,360 - kedro.io.data_catalog - INFO - Saving data to 'train_data_x' (CSVDataSet)...
+2023-07-11 23:26:58,451 - kedro.io.data_catalog - INFO - Saving data to 'test_data_x' (CSVDataSet)...
+2023-07-11 23:26:58,486 - kedro.io.data_catalog - INFO - Saving data to 'train_data_y' (CSVDataSet)...
+2023-07-11 23:26:58,573 - kedro.io.data_catalog - INFO - Saving data to 'test_data_y' (CSVDataSet)...
+2023-07-11 23:26:58,601 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-07-11 23:26:58,602 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-11 23:48:39,906 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-11 23:48:41,989 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-11 23:48:45,353 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-11 23:49:22,635 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-11 23:49:24,136 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-11 23:49:26,959 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-11 23:49:27,122 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-11 23:49:27,162 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-11 23:49:27,197 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-11 23:49:27,235 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-11 23:49:27,237 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-11 23:49:27,270 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-11 23:49:27,314 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-11 23:49:27,485 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-07-11 23:49:27,487 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-11 23:49:27,552 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-11 23:49:27,556 - kedro.pipeline.node - ERROR - Node 'node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]' failed with error: 
+'min_values'
+2023-07-11 23:49:27,577 - kedro.runner.sequential_runner - WARNING - There are 1 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes "node_split_data"
+2023-07-11 23:49:36,563 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-11 23:49:37,988 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-11 23:49:40,492 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-11 23:49:40,689 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-11 23:49:40,729 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-11 23:49:40,763 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-11 23:49:40,804 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-11 23:49:40,806 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-11 23:49:40,839 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-11 23:49:40,879 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-11 23:49:41,084 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-07-11 23:49:41,086 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-11 23:49:41,143 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-11 23:49:41,148 - kedro.pipeline.node - ERROR - Node 'node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]' failed with error: 
+'min_values'
+2023-07-11 23:49:41,163 - kedro.runner.sequential_runner - WARNING - There are 1 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes "node_split_data"
+2023-07-11 23:52:31,350 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-11 23:52:32,725 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-11 23:52:35,263 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-11 23:52:35,502 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-11 23:52:35,566 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-11 23:52:35,621 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-11 23:52:35,679 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-11 23:52:35,719 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-11 23:52:35,766 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-11 23:52:35,810 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-11 23:52:35,962 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-07-11 23:52:35,964 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-11 23:52:36,011 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-11 23:52:36,067 - kedro.io.data_catalog - INFO - Saving data to 'train_data_x' (CSVDataSet)...
+2023-07-11 23:52:36,139 - kedro.io.data_catalog - INFO - Saving data to 'test_data_x' (CSVDataSet)...
+2023-07-11 23:52:36,170 - kedro.io.data_catalog - INFO - Saving data to 'train_data_y' (CSVDataSet)...
+2023-07-11 23:52:36,240 - kedro.io.data_catalog - INFO - Saving data to 'test_data_y' (CSVDataSet)...
+2023-07-11 23:52:36,263 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-07-11 23:52:36,265 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-11 23:53:12,196 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-11 23:53:13,625 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-11 23:53:15,817 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-11 23:55:34,714 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-11 23:55:36,318 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-11 23:55:39,057 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-11 23:55:39,224 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-11 23:55:39,258 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-11 23:55:39,291 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-11 23:55:39,328 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-11 23:55:39,330 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-11 23:55:39,361 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-11 23:55:39,401 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-11 23:55:39,552 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-07-11 23:55:39,553 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-11 23:55:39,604 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-11 23:55:39,656 - kedro.io.data_catalog - INFO - Saving data to 'train_data_x' (CSVDataSet)...
+2023-07-11 23:55:39,727 - kedro.io.data_catalog - INFO - Saving data to 'test_data_x' (CSVDataSet)...
+2023-07-11 23:55:39,756 - kedro.io.data_catalog - INFO - Saving data to 'train_data_y' (CSVDataSet)...
+2023-07-11 23:55:39,829 - kedro.io.data_catalog - INFO - Saving data to 'test_data_y' (CSVDataSet)...
+2023-07-11 23:55:39,854 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-07-11 23:55:39,855 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-11 23:59:00,003 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-11 23:59:01,527 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-11 23:59:03,852 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 00:01:51,864 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 00:01:54,268 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 00:01:56,616 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 00:01:56,774 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-12 00:01:56,808 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-12 00:01:56,840 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-12 00:01:56,876 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-12 00:01:56,878 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-12 00:01:56,907 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-12 00:01:56,945 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-12 00:01:57,093 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-07-12 00:01:57,094 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-12 00:01:57,147 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-12 00:01:57,199 - kedro.io.data_catalog - INFO - Saving data to 'train_data_x' (CSVDataSet)...
+2023-07-12 00:01:57,269 - kedro.io.data_catalog - INFO - Saving data to 'test_data_x' (CSVDataSet)...
+2023-07-12 00:01:57,298 - kedro.io.data_catalog - INFO - Saving data to 'train_data_y' (CSVDataSet)...
+2023-07-12 00:01:57,370 - kedro.io.data_catalog - INFO - Saving data to 'test_data_y' (CSVDataSet)...
+2023-07-12 00:01:57,396 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-07-12 00:01:57,398 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-12 00:04:23,495 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 00:04:25,084 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 00:04:27,533 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 00:06:12,664 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 00:06:14,276 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 00:06:16,605 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 00:06:16,766 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-12 00:06:16,816 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-12 00:06:16,848 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-12 00:06:16,886 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-12 00:06:16,887 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-12 00:06:16,916 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-12 00:06:16,962 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-12 00:06:17,270 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-07-12 00:06:17,272 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-12 00:06:17,321 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-12 00:06:17,374 - kedro.io.data_catalog - INFO - Saving data to 'train_data_x' (CSVDataSet)...
+2023-07-12 00:06:17,443 - kedro.io.data_catalog - INFO - Saving data to 'test_data_x' (CSVDataSet)...
+2023-07-12 00:06:17,476 - kedro.io.data_catalog - INFO - Saving data to 'train_data_y' (CSVDataSet)...
+2023-07-12 00:06:17,547 - kedro.io.data_catalog - INFO - Saving data to 'test_data_y' (CSVDataSet)...
+2023-07-12 00:06:17,570 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-07-12 00:06:17,572 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-12 00:06:21,379 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 00:06:23,004 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 00:06:25,527 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 00:06:53,472 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 00:06:54,924 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 00:06:57,396 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 00:06:57,536 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-12 00:06:57,568 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-12 00:06:57,600 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-12 00:06:57,637 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-12 00:06:57,638 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-12 00:06:57,666 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-12 00:06:57,704 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-12 00:06:57,860 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-07-12 00:06:57,863 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-12 00:06:57,911 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-12 00:06:57,962 - kedro.io.data_catalog - INFO - Saving data to 'train_data_x' (CSVDataSet)...
+2023-07-12 00:06:58,036 - kedro.io.data_catalog - INFO - Saving data to 'test_data_x' (CSVDataSet)...
+2023-07-12 00:06:58,068 - kedro.io.data_catalog - INFO - Saving data to 'train_data_y' (CSVDataSet)...
+2023-07-12 00:06:58,137 - kedro.io.data_catalog - INFO - Saving data to 'test_data_y' (CSVDataSet)...
+2023-07-12 00:06:58,162 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-07-12 00:06:58,164 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-12 00:07:00,246 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 00:07:01,661 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 00:07:03,866 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 00:07:04,009 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-12 00:07:04,041 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-12 00:07:04,075 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-12 00:07:04,112 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-12 00:07:04,114 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-12 00:07:04,145 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-12 00:07:04,183 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-12 00:07:04,331 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-07-12 00:07:04,332 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-12 00:07:04,383 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-12 00:07:04,436 - kedro.io.data_catalog - INFO - Saving data to 'train_data_x' (CSVDataSet)...
+2023-07-12 00:07:04,508 - kedro.io.data_catalog - INFO - Saving data to 'test_data_x' (CSVDataSet)...
+2023-07-12 00:07:04,539 - kedro.io.data_catalog - INFO - Saving data to 'train_data_y' (CSVDataSet)...
+2023-07-12 00:07:04,609 - kedro.io.data_catalog - INFO - Saving data to 'test_data_y' (CSVDataSet)...
+2023-07-12 00:07:04,632 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-07-12 00:07:04,633 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-12 05:59:45,672 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 05:59:47,251 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 05:59:49,752 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 05:59:49,895 - kedro.io.data_catalog - INFO - Loading data from 'train_data_x' (CSVDataSet)...
+2023-07-12 05:59:49,946 - kedro.io.data_catalog - INFO - Loading data from 'test_data_x' (CSVDataSet)...
+2023-07-12 05:59:49,967 - kedro.io.data_catalog - INFO - Loading data from 'train_data_y' (CSVDataSet)...
+2023-07-12 05:59:49,989 - kedro.io.data_catalog - INFO - Loading data from 'test_data_y' (CSVDataSet)...
+2023-07-12 05:59:50,031 - kedro.pipeline.node - INFO - Running node: node_model_data: train([train_data_x,test_data_x,train_data_y,test_data_y]) -> [ml_model]
+2023-07-12 06:02:40,088 - kedro.io.data_catalog - INFO - Saving data to 'ml_model' (MemoryDataSet)...
+2023-07-12 06:02:40,275 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2023-07-12 06:02:40,277 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-12 06:02:40,279 - kedro.io.data_catalog - INFO - Loading data from 'ml_model' (MemoryDataSet)...
+2023-07-12 06:14:53,882 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:14:53,898 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\site-packages\kedro\framework\project\__init__.py:359: UserWarning: An error occurred while importing the 'industrialisation_modeles_ml.pipelines.deploiement' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\pierr\anaconda3\lib\site-packages\kedro\framework\project\__init__.py", line 357, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+  File "C:\Users\pierr\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\pierr\OneDrive\Bureau\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\deploiement\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\pierr\OneDrive\Bureau\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\deploiement\pipeline.py", line 6, in <module>
+    from .nodes import predict
+  File "C:\Users\pierr\OneDrive\Bureau\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\deploiement\nodes.py", line 18
+    with KedroSession.create("kedro_project_name", project_path=".") as
+                                                                       ^
+SyntaxError: invalid syntax
+
+  warnings.warn(
+
+2023-07-12 06:14:55,492 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 06:14:58,147 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 06:15:52,854 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:15:52,864 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\site-packages\kedro\framework\project\__init__.py:359: UserWarning: An error occurred while importing the 'industrialisation_modeles_ml.pipelines.deploiement' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\pierr\anaconda3\lib\site-packages\kedro\framework\project\__init__.py", line 357, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+  File "C:\Users\pierr\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\pierr\OneDrive\Bureau\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\deploiement\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "C:\Users\pierr\OneDrive\Bureau\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\deploiement\pipeline.py", line 6, in <module>
+    from .nodes import predict
+  File "C:\Users\pierr\OneDrive\Bureau\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\deploiement\nodes.py", line 18
+    with KedroSession.create("kedro_project_name", project_path=".") as
+                                                                       ^
+SyntaxError: invalid syntax
+
+  warnings.warn(
+
+2023-07-12 06:15:54,222 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 06:15:56,663 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 06:15:56,856 - kedro.io.data_catalog - INFO - Loading data from 'train_data_x' (CSVDataSet)...
+2023-07-12 06:15:56,890 - kedro.io.data_catalog - INFO - Loading data from 'test_data_x' (CSVDataSet)...
+2023-07-12 06:15:56,905 - kedro.io.data_catalog - INFO - Loading data from 'train_data_y' (CSVDataSet)...
+2023-07-12 06:15:56,928 - kedro.io.data_catalog - INFO - Loading data from 'test_data_y' (CSVDataSet)...
+2023-07-12 06:15:56,976 - kedro.pipeline.node - INFO - Running node: node_model_data: train([train_data_x,test_data_x,train_data_y,test_data_y]) -> [train_model]
+2023-07-12 06:18:41,351 - kedro.io.data_catalog - INFO - Saving data to 'train_model' (PickleDataSet)...
+2023-07-12 06:18:41,449 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2023-07-12 06:18:41,451 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-12 06:20:46,450 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:20:47,938 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 06:20:50,564 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 06:20:50,774 - kedro.io.data_catalog - INFO - Loading data from 'train_data_x' (CSVDataSet)...
+2023-07-12 06:20:50,796 - kedro.io.data_catalog - INFO - Loading data from 'test_data_x' (CSVDataSet)...
+2023-07-12 06:20:50,810 - kedro.io.data_catalog - INFO - Loading data from 'train_data_y' (CSVDataSet)...
+2023-07-12 06:20:50,830 - kedro.io.data_catalog - INFO - Loading data from 'test_data_y' (CSVDataSet)...
+2023-07-12 06:20:50,881 - kedro.pipeline.node - INFO - Running node: node_model_data: train([train_data_x,test_data_x,train_data_y,test_data_y]) -> [train_model]
+2023-07-12 06:23:48,818 - kedro.io.data_catalog - INFO - Saving data to 'train_model' (PickleDataSet)...
+2023-07-12 06:23:48,884 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2023-07-12 06:23:48,886 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-12 06:34:57,051 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:34:58,623 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 06:35:01,234 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 06:35:01,395 - kedro.io.data_catalog - INFO - Loading data from 'train_model' (PickleDataSet)...
+2023-07-12 06:35:01,594 - kedro.pipeline.node - INFO - Running node: node_predict_model_data: predict([train_model]) -> [predict_model]
+2023-07-12 06:35:01,596 - kedro.pipeline.node - ERROR - Node 'node_predict_model_data: predict([train_model]) -> [predict_model]' failed with error: 
+name 'conf_path' is not defined
+2023-07-12 06:35:01,598 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2023-07-12 06:36:59,305 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:37:01,048 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 06:37:03,781 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 06:37:03,967 - kedro.io.data_catalog - INFO - Loading data from 'train_model' (PickleDataSet)...
+2023-07-12 06:37:04,144 - kedro.pipeline.node - INFO - Running node: node_predict_model_data: predict([train_model]) -> [predict_model]
+2023-07-12 06:37:04,209 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:37:04,245 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-12 06:37:04,286 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-12 06:37:04,334 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-12 06:37:04,389 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-12 06:37:04,391 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-12 06:37:04,431 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-12 06:37:04,481 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-12 06:37:04,683 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-07-12 06:37:04,684 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-12 06:37:04,752 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-12 06:37:04,823 - kedro.io.data_catalog - INFO - Saving data to 'train_data_x' (CSVDataSet)...
+2023-07-12 06:37:04,922 - kedro.io.data_catalog - INFO - Saving data to 'test_data_x' (CSVDataSet)...
+2023-07-12 06:37:04,964 - kedro.io.data_catalog - INFO - Saving data to 'train_data_y' (CSVDataSet)...
+2023-07-12 06:37:05,070 - kedro.io.data_catalog - INFO - Saving data to 'test_data_y' (CSVDataSet)...
+2023-07-12 06:37:05,107 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-07-12 06:37:05,109 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-12 06:37:05,110 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:37:05,112 - kedro.pipeline.node - ERROR - Node 'node_predict_model_data: predict([train_model]) -> [predict_model]' failed with error: 
+A run has already been completed as part of the active KedroSession. KedroSession has a 1-1 mapping with runs, and thus only one run should be executed per session.
+2023-07-12 06:37:05,115 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2023-07-12 06:37:26,555 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:37:28,204 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 06:37:31,067 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 06:37:31,247 - kedro.io.data_catalog - INFO - Loading data from 'train_model' (PickleDataSet)...
+2023-07-12 06:37:31,405 - kedro.pipeline.node - INFO - Running node: node_predict_model_data: predict([train_model]) -> [predict_model]
+2023-07-12 06:37:31,463 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:37:31,490 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-12 06:37:31,531 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-12 06:37:31,570 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-12 06:37:31,622 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-12 06:37:31,624 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-12 06:37:31,664 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-12 06:37:31,720 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-12 06:37:31,906 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-07-12 06:37:31,908 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-12 06:37:31,967 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-12 06:37:32,029 - kedro.io.data_catalog - INFO - Saving data to 'train_data_x' (CSVDataSet)...
+2023-07-12 06:37:32,106 - kedro.io.data_catalog - INFO - Saving data to 'test_data_x' (CSVDataSet)...
+2023-07-12 06:37:32,138 - kedro.io.data_catalog - INFO - Saving data to 'train_data_y' (CSVDataSet)...
+2023-07-12 06:37:32,240 - kedro.io.data_catalog - INFO - Saving data to 'test_data_y' (CSVDataSet)...
+2023-07-12 06:37:32,271 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-07-12 06:37:32,273 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-12 06:37:32,275 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:37:32,277 - kedro.pipeline.node - ERROR - Node 'node_predict_model_data: predict([train_model]) -> [predict_model]' failed with error: 
+A run has already been completed as part of the active KedroSession. KedroSession has a 1-1 mapping with runs, and thus only one run should be executed per session.
+2023-07-12 06:37:32,280 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2023-07-12 06:37:55,267 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:37:56,853 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 06:37:59,491 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 06:37:59,651 - kedro.io.data_catalog - INFO - Loading data from 'train_model' (PickleDataSet)...
+2023-07-12 06:37:59,807 - kedro.pipeline.node - INFO - Running node: node_predict_model_data: predict([train_model]) -> [predict_model]
+2023-07-12 06:37:59,862 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:37:59,891 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-12 06:37:59,926 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-12 06:37:59,963 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-12 06:38:00,022 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-12 06:38:00,024 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-12 06:38:00,067 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-12 06:38:00,111 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-12 06:38:00,274 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2023-07-12 06:38:00,276 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-12 06:38:00,329 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-12 06:38:00,392 - kedro.io.data_catalog - INFO - Saving data to 'train_data_x' (CSVDataSet)...
+2023-07-12 06:38:00,486 - kedro.io.data_catalog - INFO - Saving data to 'test_data_x' (CSVDataSet)...
+2023-07-12 06:38:00,519 - kedro.io.data_catalog - INFO - Saving data to 'train_data_y' (CSVDataSet)...
+2023-07-12 06:38:00,601 - kedro.io.data_catalog - INFO - Saving data to 'test_data_y' (CSVDataSet)...
+2023-07-12 06:38:00,632 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2023-07-12 06:38:00,634 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-12 06:38:00,691 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:38:00,724 - kedro.io.data_catalog - INFO - Loading data from 'train_data_x' (CSVDataSet)...
+2023-07-12 06:38:00,750 - kedro.io.data_catalog - INFO - Loading data from 'test_data_x' (CSVDataSet)...
+2023-07-12 06:38:00,766 - kedro.io.data_catalog - INFO - Loading data from 'train_data_y' (CSVDataSet)...
+2023-07-12 06:38:00,790 - kedro.io.data_catalog - INFO - Loading data from 'test_data_y' (CSVDataSet)...
+2023-07-12 06:38:00,841 - kedro.pipeline.node - INFO - Running node: node_model_data: train([train_data_x,test_data_x,train_data_y,test_data_y]) -> [train_model]
+2023-07-12 06:42:12,057 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:42:14,015 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 06:42:17,122 - py.warnings - WARNING - C:\Users\pierr\anaconda3\lib\importlib\__init__.py:126: DeprecationWarning: `kedro.extras.datasets` is deprecated and will be removed in Kedro 0.19, install `kedro-datasets` instead by running `pip install kedro-datasets`.
+  return _bootstrap._gcd_import(name[level:], package, level)
+
+2023-07-12 06:42:17,304 - kedro.io.data_catalog - INFO - Loading data from 'train_model' (PickleDataSet)...
+2023-07-12 06:42:17,440 - kedro.pipeline.node - INFO - Running node: node_predict_model_data: predict([train_model]) -> [predict_model]
+2023-07-12 06:42:17,487 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:42:17,512 - kedro.io.data_catalog - INFO - Loading data from 'train_data_x' (CSVDataSet)...
+2023-07-12 06:42:17,545 - kedro.io.data_catalog - INFO - Loading data from 'test_data_x' (CSVDataSet)...
+2023-07-12 06:42:17,561 - kedro.io.data_catalog - INFO - Loading data from 'train_data_y' (CSVDataSet)...
+2023-07-12 06:42:17,583 - kedro.io.data_catalog - INFO - Loading data from 'test_data_y' (CSVDataSet)...
+2023-07-12 06:42:17,628 - kedro.pipeline.node - INFO - Running node: node_model_data: train([train_data_x,test_data_x,train_data_y,test_data_y]) -> [train_model]
+2023-07-12 06:42:26,638 - kedro.io.data_catalog - INFO - Saving data to 'train_model' (PickleDataSet)...
+2023-07-12 06:42:26,709 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2023-07-12 06:42:26,711 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-12 06:42:26,713 - kedro.pipeline.node - ERROR - Node 'node_predict_model_data: predict([train_model]) -> [predict_model]' failed with error: 
+[Errno 2] No such file or directory: 'where_my_data_are_suppose_to_be_saved'
+2023-07-12 06:42:26,715 - kedro.runner.sequential_runner - WARNING - No nodes ran. Repeat the previous command to attempt a new run.
+2023-07-12 06:51:37,937 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:52:14,188 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:53:07,285 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:54:01,864 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:54:31,587 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:54:32,989 - py.warnings - WARNING - C:\Users\pierr\AppData\Roaming\Python\Python310\site-packages\tensorflow\python\framework\dtypes.py:246: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  np.bool8: (False, True),
+
+2023-07-12 06:55:19,891 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 06:55:53,940 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 10:05:36,019 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 10:05:37,196 - py.warnings - WARNING - C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py:359: UserWarning: An error occurred while importing the 'industrialisation_modeles_ml.pipelines.deploiement' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py", line 357, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\deploiement\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\deploiement\pipeline.py", line 6, in <module>
+    from .nodes import predict, train
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\deploiement\nodes.py", line 9, in <module>
+    from flask import Flask, request, jsonify
+ModuleNotFoundError: No module named 'flask'
+
+  warnings.warn(
+
+2023-07-12 10:05:37,308 - py.warnings - WARNING - C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py:359: UserWarning: An error occurred while importing the 'industrialisation_modeles_ml.pipelines.entrainement' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py", line 357, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\entrainement\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\entrainement\pipeline.py", line 8, in <module>
+    from .nodes import train
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\entrainement\nodes.py", line 12, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+
+  warnings.warn(
+
+2023-07-12 10:05:37,421 - py.warnings - WARNING - C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py:359: UserWarning: An error occurred while importing the 'industrialisation_modeles_ml.pipelines.preprocess' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py", line 357, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\preprocess\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\preprocess\pipeline.py", line 8, in <module>
+    from .nodes import clean_data, normalise_data, split_data
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\preprocess\nodes.py", line 10, in <module>
+    from sklearn.model_selection import train_test_split
+ModuleNotFoundError: No module named 'sklearn'
+
+  warnings.warn(
+
+2023-07-12 10:09:26,538 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 10:09:27,241 - py.warnings - WARNING - C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py:359: UserWarning: An error occurred while importing the 'industrialisation_modeles_ml.pipelines.deploiement' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py", line 357, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\deploiement\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\deploiement\pipeline.py", line 6, in <module>
+    from .nodes import predict, train
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\deploiement\nodes.py", line 9, in <module>
+    from flask import Flask, request, jsonify
+ModuleNotFoundError: No module named 'flask'
+
+  warnings.warn(
+
+2023-07-12 10:09:27,308 - py.warnings - WARNING - C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py:359: UserWarning: An error occurred while importing the 'industrialisation_modeles_ml.pipelines.entrainement' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py", line 357, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\entrainement\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\entrainement\pipeline.py", line 8, in <module>
+    from .nodes import train
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\entrainement\nodes.py", line 12, in <module>
+    import mlflow
+ModuleNotFoundError: No module named 'mlflow'
+
+  warnings.warn(
+
+2023-07-12 10:09:30,511 - py.warnings - WARNING - C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py:359: UserWarning: An error occurred while importing the 'industrialisation_modeles_ml.pipelines.preprocess' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py", line 357, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\preprocess\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\preprocess\pipeline.py", line 8, in <module>
+    from .nodes import clean_data, normalise_data, split_data
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\preprocess\nodes.py", line 10, in <module>
+    from sklearn.model_selection import train_test_split
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\__init__.py", line 83, in <module>
+    from .base import clone
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\base.py", line 19, in <module>
+    from .utils import _IS_32BIT
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\__init__.py", line 22, in <module>
+    from ._param_validation import Interval, validate_params
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_param_validation.py", line 15, in <module>
+    from .validation import _is_arraylike_not_scalar
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 28, in <module>
+    from ..utils._array_api import _asarray_with_order, _is_numpy_namespace, get_namespace
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_array_api.py", line 9, in <module>
+    from .fixes import parse_version
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\fixes.py", line 18, in <module>
+    import scipy.stats
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\scipy\stats\__init__.py", line 608, in <module>
+    from ._stats_py import *
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\scipy\stats\_stats_py.py", line 46, in <module>
+    from . import distributions
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\scipy\stats\distributions.py", line 10, in <module>
+    from . import _continuous_distns
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\scipy\stats\_continuous_distns.py", line 33, in <module>
+    import scipy.stats._boost as _boost
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\scipy\stats\_boost\__init__.py", line 25, in <module>
+    from scipy.stats._boost.ncf_ufunc import (
+  File "<frozen importlib._bootstrap>", line 1022, in _find_and_load
+KeyboardInterrupt
+
+  warnings.warn(
+
+2023-07-12 10:10:29,747 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 10:14:20,107 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 10:14:26,710 - py.warnings - WARNING - C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py:359: UserWarning: An error occurred while importing the 'industrialisation_modeles_ml.pipelines.entrainement' module. Nothing defined therein will be returned by 'find_pipelines'.
+
+Traceback (most recent call last):
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\site-packages\kedro\framework\project\__init__.py", line 357, in find_pipelines
+    pipeline_module = importlib.import_module(pipeline_module_name)
+  File "C:\Users\A6019584\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\entrainement\__init__.py", line 6, in <module>
+    from .pipeline import create_pipeline
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\entrainement\pipeline.py", line 8, in <module>
+    from .nodes import train
+  File "D:\industrialisation-modeles-ml\src\industrialisation_modeles_ml\pipelines\entrainement\nodes.py", line 14, in <module>
+    import tensorflow as tf
+ModuleNotFoundError: No module named 'tensorflow'
+
+  warnings.warn(
+
+2023-07-12 10:14:31,046 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-12 10:14:31,238 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-12 10:14:31,377 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-12 10:14:31,585 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2023-07-12 10:14:31,594 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-12 10:14:31,754 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-12 10:14:31,965 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-12 10:21:15,271 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 10:22:12,925 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 10:23:16,178 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 10:23:54,424 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-12 10:23:54,514 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-12 10:23:54,568 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-12 10:23:54,645 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-07-12 10:23:54,648 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-12 10:23:54,703 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-12 10:23:54,776 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-12 10:23:55,103 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-07-12 10:23:55,106 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-12 10:23:55,227 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-12 10:23:55,312 - kedro.io.data_catalog - INFO - Saving data to 'train_data_x' (CSVDataSet)...
+2023-07-12 10:23:55,488 - kedro.io.data_catalog - INFO - Saving data to 'test_data_x' (CSVDataSet)...
+2023-07-12 10:23:55,556 - kedro.io.data_catalog - INFO - Saving data to 'train_data_y' (CSVDataSet)...
+2023-07-12 10:23:55,709 - kedro.io.data_catalog - INFO - Saving data to 'test_data_y' (CSVDataSet)...
+2023-07-12 10:23:55,765 - kedro.runner.sequential_runner - INFO - Completed 3 out of 4 tasks
+2023-07-12 10:23:55,768 - kedro.io.data_catalog - INFO - Loading data from 'train_data_x' (CSVDataSet)...
+2023-07-12 10:23:55,823 - kedro.io.data_catalog - INFO - Loading data from 'test_data_x' (CSVDataSet)...
+2023-07-12 10:23:55,860 - kedro.io.data_catalog - INFO - Loading data from 'train_data_y' (CSVDataSet)...
+2023-07-12 10:23:55,915 - kedro.io.data_catalog - INFO - Loading data from 'test_data_y' (CSVDataSet)...
+2023-07-12 10:23:56,031 - kedro.pipeline.node - INFO - Running node: node_model_data: train([train_data_x,test_data_x,train_data_y,test_data_y]) -> [train_model]
+2023-07-12 10:24:19,197 - kedro.io.data_catalog - INFO - Saving data to 'train_model' (PickleDataSet)...
+2023-07-12 10:24:19,337 - kedro.runner.sequential_runner - INFO - Completed 4 out of 4 tasks
+2023-07-12 10:24:19,340 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.
+2023-07-12 10:31:07,029 - kedro.framework.session.session - INFO - Kedro project industrialisation-modeles-ml
+2023-07-12 10:31:37,308 - kedro.io.data_catalog - INFO - Loading data from 'raw_data' (CSVDataSet)...
+2023-07-12 10:31:37,498 - kedro.pipeline.node - INFO - Running node: node_clean_raw_data: clean_data([raw_data]) -> [clean_data]
+2023-07-12 10:31:37,694 - kedro.io.data_catalog - INFO - Saving data to 'clean_data' (CSVDataSet)...
+2023-07-12 10:31:38,013 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2023-07-12 10:31:38,022 - kedro.io.data_catalog - INFO - Loading data from 'clean_data' (CSVDataSet)...
+2023-07-12 10:31:38,396 - kedro.pipeline.node - INFO - Running node: node_normalise_clean_data: normalise_data([clean_data]) -> [normalised_data]
+2023-07-12 10:31:38,745 - kedro.io.data_catalog - INFO - Saving data to 'normalised_data' (CSVDataSet)...
+2023-07-12 10:31:39,895 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2023-07-12 10:31:39,906 - kedro.io.data_catalog - INFO - Loading data from 'normalised_data' (CSVDataSet)...
+2023-07-12 10:31:40,299 - kedro.pipeline.node - INFO - Running node: node_split_data: split_data([normalised_data]) -> [train_data_x,test_data_x,train_data_y,test_data_y]
+2023-07-12 10:31:40,723 - kedro.io.data_catalog - INFO - Saving data to 'train_data_x' (CSVDataSet)...
+2023-07-12 10:31:41,275 - kedro.io.data_catalog - INFO - Saving data to 'test_data_x' (CSVDataSet)...
+2023-07-12 10:31:41,524 - kedro.io.data_catalog - INFO - Saving data to 'train_data_y' (CSVDataSet)...
+2023-07-12 10:31:42,031 - kedro.io.data_catalog - INFO - Saving data to 'test_data_y' (CSVDataSet)...
+2023-07-12 10:31:42,162 - kedro.runner.sequential_runner - INFO - Completed 3 out of 4 tasks
+2023-07-12 10:31:42,170 - kedro.io.data_catalog - INFO - Loading data from 'train_data_x' (CSVDataSet)...
+2023-07-12 10:31:42,338 - kedro.io.data_catalog - INFO - Loading data from 'test_data_x' (CSVDataSet)...
+2023-07-12 10:31:42,450 - kedro.io.data_catalog - INFO - Loading data from 'train_data_y' (CSVDataSet)...
+2023-07-12 10:31:42,630 - kedro.io.data_catalog - INFO - Loading data from 'test_data_y' (CSVDataSet)...
+2023-07-12 10:31:42,935 - kedro.pipeline.node - INFO - Running node: node_model_data: train([train_data_x,test_data_x,train_data_y,test_data_y]) -> [train_model]
+2023-07-12 10:33:11,816 - kedro.io.data_catalog - INFO - Saving data to 'train_model' (PickleDataSet)...
+2023-07-12 10:33:12,093 - kedro.runner.sequential_runner - INFO - Completed 4 out of 4 tasks
+2023-07-12 10:33:12,100 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully.

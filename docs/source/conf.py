@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-# sound documentation build
+# industrialisation_modeles_ml documentation build
 # configuration file, created by sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its
@@ -21,11 +21,11 @@ import re
 
 from kedro.framework.cli.utils import find_stylesheets
 
-from sound import __version__ as release
+from industrialisation_modeles_ml import __version__ as release
 
 # -- Project information -----------------------------------------------------
 
-project = "sound"
+project = "industrialisation_modeles_ml"
 author = "Kedro"
 
 # The short X.Y version.
@@ -119,7 +119,7 @@ html_show_sourcelink = False
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "sounddoc"
+htmlhelp_basename = "industrialisation_modeles_mldoc"
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -147,8 +147,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "sound.tex",
-        "sound Documentation",
+        "industrialisation_modeles_ml.tex",
+        "industrialisation_modeles_ml Documentation",
         "Kedro",
         "manual",
     )
@@ -161,8 +161,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "sound",
-        "sound Documentation",
+        "industrialisation_modeles_ml",
+        "industrialisation_modeles_ml Documentation",
         [author],
         1,
     )
@@ -176,11 +176,11 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "sound",
-        "sound Documentation",
+        "industrialisation_modeles_ml",
+        "industrialisation_modeles_ml Documentation",
         author,
-        "sound",
-        "Project sound codebase.",
+        "industrialisation_modeles_ml",
+        "Project industrialisation_modeles_ml codebase.",
         "Data-Science",
     )
 ]

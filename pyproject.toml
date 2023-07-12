@@ -1,6 +1,6 @@
 [tool.kedro]
-package_name = "sound"
-project_name = "Sound"
+package_name = "industrialisation_modeles_ml"
+project_name = "industrialisation-modeles-ml"
 kedro_init_version = "0.18.10"
 
 [tool.isort]
@@ -9,7 +9,7 @@ profile = "black"
 [tool.pytest.ini_options]
 addopts = """
 --cov-report term-missing \
---cov src/sound -ra"""
+--cov src/industrialisation_modeles_ml -ra"""
 
 [tool.coverage.report]
 fail_under = 0
